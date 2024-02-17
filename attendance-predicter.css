@@ -45,8 +45,9 @@ h1{
 }
 .btn {
   border-radius:50px;
-   background-color: rgba(24, 238, 225, 0.52); 
+  background-color: rgba(24, 238, 225, 0.52); 
   padding: 7px;
+  margin-bottom : 20px;
   margin-left: 100px;
   width: 100px;
   background-color: rgba(66, 146, 221, 0.286);
