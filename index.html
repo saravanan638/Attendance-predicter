@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>attendance-predicter</title>
+    <link rel="stylesheet" href="attendance-predicter.css" />
+    <script src="preedicter.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head-holder">
+        <h1>Attendance Predicter</h1>
+      </div>
+      <hr size="5px" color="black" />
+      <div class="form-holder">
+        <div class="user-input">
+          <label for="" id="label-element">No.of Hrs Per Day</label>
+          <input type="number" class="all-input" id="input1" required />
+          <br />
+          <label for="" id="label-element">Total No.of Hrs Till Date</label>
+          <input type="number" class="all-input" id="input2" required />
+          <br />
+          <label for="" id="label-element">No.of Hrs You Have Attend</label>
+          <input type="number" class="all-input" id="input3" required />
+          <br />
+          <label for="" id="label-element">No.of Hrs Needs To Take Leave</label>
+          <input type="number" class="all-input" id="input4" required />
+          <br />
+          <label for="" id="label-element">Your Deadline Percentage %</label>
+          <input type="number" class="all-input" id="input5" required />
+          <br />
+        </div>
+        <div class="user-result">
+          <label for="" id="label-element">Your Current Attendance %</label>
+          <input type="number" class="all-input" id="input6" />
+          <br />
+          <label for="" id="label-element"
+            >Exact Attendance % After Your Leave</label
+          >
+          <input type="number" class="all-input" id="input7" />
+          <br />
+          <label for="" id="label-element"
+            >No.of Days Needs To Be Attend After Leave Taken</label
+          >
+          <input type="number" class="all-input" id="input8" />
+          <br />
+          <label for="" id="label-element"> Conclusion </label>
+          <input type="text" class="all-input" id="input9" />
+          <br />
+          <button type="submit" class="btn" onclick="predict()">submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
